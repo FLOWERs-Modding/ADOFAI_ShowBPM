@@ -10,14 +10,14 @@ namespace ShowBPM
 {
     internal static class Patch
     {
-        private static float bpm = 0, pitch = 0;
+        private static float bpm = 0, pitch = 0, playbackSpeed = 1;
         private static bool first = true, beforedt = false;
         private static double beforebpm = 0;
 
         [HarmonyPatch(typeof(scrCalibrationPlanet),"Start")]
         internal static class scrCalibrationPlanet_Start
         {
-            private static void Pretfix()
+            private static void Postfix()
             {
                 if (!Main.IsEnabled) return;
                 Main.gui.TextObject.SetActive(false);
@@ -105,15 +105,15 @@ namespace ShowBPM
                 if (floor.nextfloor == null) return;
                 List<string> texts = new List<string>();
 
-                bool isTwirl = floor.isCCW;
-                double val = scrMisc.GetAngleMoved(floor.entryangle, floor.exitangle, !isTwirl) / 3.1415927410125732 *
+                bool isTwirl = scrController.instance.isCW;
+                double val = scrMisc.GetAngleMoved(floor.entryangle, floor.exitangle, isTwirl) / 3.1415927410125732 *
                              180; // 지금 앵글
                 double angle = Math.Round(val);
 
                 double speed = 0, kps = 0, curBPM = 0, nextbpm = 0;
-                speed = __instance.controller.speed;
-                curBPM = getRealBPM(floor, bpm);
-                nextbpm = getRealBPM(floor.nextfloor, bpm);
+                speed = __instance.controller.speed ;
+                curBPM = getRealBPM(floor, bpm) * playbackSpeed;
+                nextbpm = getRealBPM(floor.nextfloor==null? floor:floor.nextfloor, bpm)* playbackSpeed;
                 
                 bool isDongta = false;
                 if (Main.setting.ignoreMultipress)
@@ -130,12 +130,16 @@ namespace ShowBPM
                     double num4 = 0.0299999993294477;
                     applyMultipressDamage = flag4 & time > num4;
 
-                    isDongta = !applyMultipressDamage && !doubleEqual(nextbpm, curBPM) && angle <= 46;
+                    isDongta = !applyMultipressDamage && !doubleEqual(nextbpm, curBPM);
                 }
+                
+                
 
+
+                //curBPM *= isTwirl? (2.0/scrController.instance.planetList.Count):(scrController.instance.planetList.Count*0.5);
 
                 if (Main.setting.onTileBpm)
-                    texts.Add(Main.setting.text1.Replace("{value}", format((float) (bpm * speed))));
+                    texts.Add(Main.setting.text1.Replace("{value}", format((float) (bpm * speed* playbackSpeed))));
                 if (isDongta || beforedt) curBPM = beforebpm;
 
                 if (Main.setting.onCurBpm) texts.Add(Main.setting.text2.Replace("{value}", format((float) curBPM)));
@@ -183,6 +187,7 @@ namespace ShowBPM
 
         public static double getRealBPM(scrFloor floor, float bpm)
         {
+            /*
             bool isTwirl = floor.isCCW;
             double val = scrMisc.GetAngleMoved(floor.entryangle,floor.exitangle,!isTwirl)/3.1415927410125732*180; // 지금 앵글
             double angle = Math.Round(val);
@@ -191,7 +196,12 @@ namespace ShowBPM
             speed = floor.controller.speed;
             if (angle == 0) angle = 360;
             curBPM = (180/angle) * (speed * bpm);
-            return curBPM;
+            return curBPM;*/
+            if (floor == null)
+                return bpm;
+            if (floor.nextfloor == null)
+                return floor.controller.speed * bpm;
+            return 60.0/(floor.nextfloor.entryTime - floor.entryTime);
 
         }
         
@@ -217,13 +227,19 @@ namespace ShowBPM
             {
                 
                 pitch = (float)__instance.customLevel.levelData.pitch/100;
-                if (GCS.standaloneLevelMode) pitch *= GCS.currentSpeedRun;
-                bpm = __instance.customLevel.levelData.bpm * pitch;
+                var before = typeof(GCS).GetField("currentSpeedRun",AccessTools.all);
+                var after = typeof(GCS).GetField("currentSpeedTrial",AccessTools.all);
+
+                if (GCS.standaloneLevelMode) pitch *= (float)(before==null? 
+                    (after==null? 1.0f:after.GetValue(null))  : before.GetValue(null));
+                playbackSpeed = scnEditor.instance.playbackSpeed;
+                bpm = __instance.customLevel.levelData.bpm * pitch * playbackSpeed;
             }
             else
             {
                 pitch = __instance.conductor.song.pitch;
                 //if (!GCS.currentSpeedRun.Equals(1)) pitch *= GCS.currentSpeedRun;
+                playbackSpeed = 1;
                 bpm = __instance.conductor.bpm * pitch;
             }
 
@@ -233,7 +249,7 @@ namespace ShowBPM
                 double speed = __instance.controller.speed;
                 cur = (float)(bpm * speed);
             }
-            
+
 
             if (Main.setting.onTileBpm)
                 texts.Add(Main.setting.text1.Replace("{value}", format(cur)));
