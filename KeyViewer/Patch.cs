@@ -112,8 +112,8 @@ namespace ShowBPM
 
                 double speed = 0, kps = 0, curBPM = 0, nextbpm = 0;
                 speed = __instance.controller.speed ;
-                curBPM = getRealBPM(floor, bpm) * playbackSpeed;
-                nextbpm = getRealBPM(floor.nextfloor==null? floor:floor.nextfloor, bpm)* playbackSpeed;
+                curBPM = getRealBPM(floor, bpm) * playbackSpeed * pitch;
+                nextbpm = getRealBPM(floor.nextfloor==null? floor:floor.nextfloor, bpm)* playbackSpeed * pitch;
                 
                 bool isDongta = false;
                 if (Main.setting.ignoreMultipress)
@@ -139,7 +139,7 @@ namespace ShowBPM
                 //curBPM *= isTwirl? (2.0/scrController.instance.planetList.Count):(scrController.instance.planetList.Count*0.5);
 
                 if (Main.setting.onTileBpm)
-                    texts.Add(Main.setting.text1.Replace("{value}", format((float) (bpm * speed* playbackSpeed))));
+                    texts.Add(Main.setting.text1.Replace("{value}", format((float) (bpm * speed))));
                 if (isDongta || beforedt) curBPM = beforebpm;
 
                 if (Main.setting.onCurBpm) texts.Add(Main.setting.text2.Replace("{value}", format((float) curBPM)));
@@ -233,7 +233,8 @@ namespace ShowBPM
                 if (GCS.standaloneLevelMode) pitch *= (float)(before==null? 
                     (after==null? 1.0f:after.GetValue(null))  : before.GetValue(null));
                 playbackSpeed = scnEditor.instance.playbackSpeed;
-                bpm = __instance.customLevel.levelData.bpm * pitch * playbackSpeed;
+                
+                bpm = __instance.customLevel.levelData.bpm * playbackSpeed * pitch;
             }
             else
             {
