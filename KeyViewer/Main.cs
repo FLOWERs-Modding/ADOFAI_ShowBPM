@@ -27,8 +27,6 @@ namespace ShowBPM
 
         public static Language language = new English();
 
-
-
         internal static void Setup(UnityModManager.ModEntry modEntry)
         {
             Logger = modEntry.Logger;

@@ -1,0 +1,92 @@
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\ShowBPM - Copy.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\ShowBPM - Copy.pdb
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\0Harmony.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\Assembly-CSharp-firstpass.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\Assembly-CSharp.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\DOTween.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\DOTweenPro.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\RDTools.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.AudioModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.CoreModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.IMGUIModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.InputLegacyModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.InputModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.TextRenderingModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UI.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UIModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityModManager.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\SharpHook.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UnityWebRequestModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.ParticleSystemModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\com.rlabrecque.steamworks.net.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.Physics2DModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.AnimationModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.VideoModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.SpriteMaskModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\Unity.TextMeshPro.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\Rewired_Core.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.PhysicsModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.ImageConversionModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\Unity.Addressables.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\Unity.ResourceManager.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UnityAnalyticsModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\Rewired_Windows.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\Rewired_Windows_Functions.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UnityWebRequestAudioModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UnityWebRequestTextureModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.AndroidJNIModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UnityWebRequestWWWModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.TerrainModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\Ookii.Dialogs.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\netstandard.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.DSPGraphModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UnityCurlModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.ContentLoadModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.PropertiesModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.TLSModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.AccessibilityModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UnityConnectModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.AIModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UnityAnalyticsCommonModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.PerformanceReportingModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.AssetBundleModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.SharedInternalsModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.ClothModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.ClusterInputModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.ClusterRendererModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.CrashReportingModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.TilemapModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.VFXModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.VRModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.GridModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.SubsystemsModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.JSONSerializeModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.LocalizationModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.NVIDIAModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.DirectorModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.VirtualTexturingModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.ScreenCaptureModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.GameCenterModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.StreamingModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.TerrainPhysicsModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.TextCoreFontEngineModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.TextCoreTextEngineModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.SpriteShapeModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.UIElementsModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.VehiclesModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.WindModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.XRModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityEngine.ARModule.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\dnlib.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\bin\Release\net4.8\UnityModManager.xml
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\obj\Release\net4.8\ShowBPM - Copy.csproj.AssemblyReference.cache
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\obj\Release\net4.8\ShowBPM - Copy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\obj\Release\net4.8\ShowBPM - Copy.AssemblyInfoInputs.cache
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\obj\Release\net4.8\ShowBPM - Copy.AssemblyInfo.cs
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\obj\Release\net4.8\ShowBPM - Copy.csproj.CoreCompileInputs.cache
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\obj\Release\net4.8\ShowBPM - Copy.sourcelink.json
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\obj\Release\net4.8\ShowBPM .0737E99F.Up2Date
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\obj\Release\net4.8\ShowBPM - Copy.dll
+D:\Bubu USB\Coding\C#\ShowBPM\ADOFAI_ShowBPM\KeyViewer\obj\Release\net4.8\ShowBPM - Copy.pdb
