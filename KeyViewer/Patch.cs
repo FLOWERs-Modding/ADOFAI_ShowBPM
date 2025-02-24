@@ -66,16 +66,16 @@ namespace ShowBPM
             }
         }
 
-        [HarmonyPatch(typeof(CustomLevel), "Play")]
+        [HarmonyPatch(typeof(scnGame), "Play")]
         internal static class CustomLevelStart
         {
-            private static void Postfix(CustomLevel __instance)
+            private static void Postfix(scnGame __instance)
             {
                 if (!Main.IsEnabled) return;
-                if (!__instance.controller.gameworld) return;
-                if (__instance.controller.customLevel == null) return;
+                if (!ADOBase.controller.gameworld) return;
+                //if (ADOBase.customLevel == null) return;
                 
-                LevelStart(__instance.controller);
+                LevelStart(ADOBase.controller);
             }
         }
 
@@ -86,11 +86,10 @@ namespace ShowBPM
             private static void Postfix(scrPressToStart __instance)
             {
                 if (!Main.IsEnabled) return;
-                if (!__instance.controller.gameworld) return;
-                if (__instance.controller.customLevel != null) return;
-                
-                LevelStart(__instance.controller);
-                
+                if (!ADOBase.controller.gameworld) return;
+                //if (ADOBase.customLevel == null) return;
+
+                LevelStart(ADOBase.controller);
             }
 
         }
@@ -200,7 +199,7 @@ namespace ShowBPM
             if (floor == null)
                 return bpm;
             if (floor.nextfloor == null)
-                return floor.controller.speed * bpm;
+                return ADOBase.controller.speed * bpm;
             return 60.0/(floor.nextfloor.entryTime - floor.entryTime);
 
         }
@@ -222,32 +221,15 @@ namespace ShowBPM
             List<string> texts = new List<string>();
             float kps = 0;
 
-            
-            if (__instance.customLevel!=null)
-            {
-                
-                pitch = (float)__instance.customLevel.levelData.pitch/100;
-                var before = typeof(GCS).GetField("currentSpeedRun",AccessTools.all);
-                var after = typeof(GCS).GetField("currentSpeedTrial",AccessTools.all);
-
-                if (GCS.standaloneLevelMode) pitch *= (float)(before==null? 
-                    (after==null? 1.0f:after.GetValue(null))  : before.GetValue(null));
-                playbackSpeed = scnEditor.instance.playbackSpeed;
-                
-                bpm = __instance.customLevel.levelData.bpm * playbackSpeed * pitch;
-            }
-            else
-            {
-                pitch = __instance.conductor.song.pitch;
-                //if (!GCS.currentSpeedRun.Equals(1)) pitch *= GCS.currentSpeedRun;
-                playbackSpeed = 1;
-                bpm = __instance.conductor.bpm * pitch;
-            }
+            pitch = ADOBase.conductor.song.pitch;
+            //if (!GCS.currentSpeedRun.Equals(1)) pitch *= GCS.currentSpeedRun;
+            playbackSpeed = 1;
+            bpm = ADOBase.conductor.bpm * pitch;
 
             float cur = bpm;
             if (__instance.currentSeqID!=0)
             {
-                double speed = __instance.controller.speed;
+                double speed = ADOBase.controller.speed;
                 cur = (float)(bpm * speed);
             }
 

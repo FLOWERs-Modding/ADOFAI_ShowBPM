@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowBPM", "KeyViewer\ShowBPM.csproj", "{99ADC24B-CCAD-4B0A-B800-37F12F40FF32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowBPM", "KeyViewer\ShowBPM.csproj", "{551CFDFB-CDC8-4EC8-A050-83BD5839313E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{99ADC24B-CCAD-4B0A-B800-37F12F40FF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99ADC24B-CCAD-4B0A-B800-37F12F40FF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99ADC24B-CCAD-4B0A-B800-37F12F40FF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99ADC24B-CCAD-4B0A-B800-37F12F40FF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551CFDFB-CDC8-4EC8-A050-83BD5839313E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551CFDFB-CDC8-4EC8-A050-83BD5839313E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551CFDFB-CDC8-4EC8-A050-83BD5839313E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551CFDFB-CDC8-4EC8-A050-83BD5839313E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0DF1AB80-4762-421D-A9A9-392EE36D67D3}
+		SolutionGuid = {FE8E2BDA-057D-42D2-BAC4-F29038D5A3D8}
 	EndGlobalSection
 EndGlobal
